@@ -153,6 +153,15 @@ if(_ch($estate_data_option_68, false))
                         <a target="_blank" href="<?php echo $terms_url; ?>"><?php echo lang_check('I Agree The Privacy'); ?></a>
                     </label>
                 </div>
+
+                <div class="form-field input-field checkbox-field" >
+                <select name="cars" id="cars">
+                    <option value="volvo">Blok A1</option>
+                    <option value="saab">Blok A3</option>
+                    <option value="mercedes">Blok A4</option>
+                    <option value="audi">Blok A10</option>
+               </select>
+                </div>
             <?php endif; ?>
             <button type="submit" class="btn2"><?php echo lang_check('Send Message'); ?></button>
         </form>
