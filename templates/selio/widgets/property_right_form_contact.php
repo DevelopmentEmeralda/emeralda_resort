@@ -74,6 +74,14 @@ if(_ch($estate_data_option_68, false))
                 </div><!-- /.form-field -->
             {/is_purpose_rent}
             <?php endif; ?>
+            <div  >
+                <select name="cars" id="cars">
+                    <option value="volvo">Blok A1</option>
+                    <option value="saab">Blok A3</option>
+                    <option value="mercedes">Blok A4</option>
+                    <option value="audi">Blok A10</option>
+               </select>
+                </div>
             
             <div class="form-field {form_error_firstname}">
                 <input class="" id="firstname" name="firstname" type="text" placeholder="<?php _l('FirstLast'); ?>" value="{form_value_firstname}" />
@@ -154,14 +162,7 @@ if(_ch($estate_data_option_68, false))
                     </label>
                 </div>
 
-                <div class="form-field input-field checkbox-field" >
-                <select name="cars" id="cars">
-                    <option value="volvo">Blok A1</option>
-                    <option value="saab">Blok A3</option>
-                    <option value="mercedes">Blok A4</option>
-                    <option value="audi">Blok A10</option>
-               </select>
-                </div>
+                
             <?php endif; ?>
             <button type="submit" class="btn2"><?php echo lang_check('Send Message'); ?></button>
         </form>
