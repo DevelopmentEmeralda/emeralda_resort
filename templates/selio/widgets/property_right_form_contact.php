@@ -74,7 +74,7 @@ if(_ch($estate_data_option_68, false))
                 </div><!-- /.form-field -->
             {/is_purpose_rent}
             <?php endif; ?>
-            <div  >
+            <div class="form-field {form_error_firstname}" >
                 <select name="cars" id="cars">
                     <option value="volvo">Blok A1</option>
                     <option value="saab">Blok A3</option>
