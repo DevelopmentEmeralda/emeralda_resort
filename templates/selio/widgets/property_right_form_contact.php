@@ -81,7 +81,14 @@ if(_ch($estate_data_option_68, false))
                     <option value="mercedes">Blok A4</option>
                     <option value="audi">Blok A10</option>
                </select>
-                </div>
+
+               <select name="cars" id="cars">
+                    <option value="volvo">No 1</option>
+                    <option value="saab">No 3</option>
+                    <option value="mercedes">No 9</option>
+                    <option value="audi">No 11</option>
+               </select>
+            </div>
             
             <div class="form-field {form_error_firstname}">
                 <input class="" id="firstname" name="firstname" type="text" placeholder="<?php _l('FirstLast'); ?>" value="{form_value_firstname}" />
